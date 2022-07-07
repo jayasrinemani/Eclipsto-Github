@@ -42,7 +42,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 		c3.setCellValue(z); //paste the value of x+y
 		}
 		// save excel file
-		FileOutputStream fo=new FileOutputStream(f1);//write  mode, i took write permision
+		FileOutputStream fo=new FileOutputStream(f1);//write  mode, i took write permision from jayasri
 		web.write(fo); // file from RAM to hard disk
 		web.close();
 		}
