@@ -32,7 +32,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 		for(int i=1; i<nour; i++)  // we are not bothering on i=0 which is index[0]
 		{
-		DataFormatter dt=new DataFormatter();// get any type of data from cells as String
+		DataFormatter dt=new DataFormatter();// get any type of data from cells as String to
 		Cell c1=sh.getRow(i).getCell(0);// first coloiumn 200
 		Cell c2=sh.getRow(i).getCell(1);// second coloumn 50
 		int x=Integer.parseInt(dt.formatCellValue(c1));
